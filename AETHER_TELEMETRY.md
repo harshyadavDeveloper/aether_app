@@ -16,7 +16,7 @@ PASS: Targeted repaints detected.
 - **countdown_service.dart** (Line 21): 100ms interval as required. Using Timer.periodic is
 - **raid_service.dart** (Line 4): AsyncMutex serializes all joinRaid calls into a queue.
 - **raid_service.dart** (Line 30): Every call queues behind the previous one.
-- **raid_service.dart** (Line 58): Atomic gate — serialized by mutex above AND by
+- **raid_service.dart** (Line 58): Atomic gate - serialized by mutex above AND by
 - **world_event_screen.dart** (Line 19): userId would come from FirebaseAuth in production.
 - **world_event_screen.dart** (Line 61): resizeToAvoidBottomInset lets the scaffold shrink
 - **world_event_screen.dart** (Line 74): reverse: true keeps the chat input pinned near

@@ -55,7 +55,7 @@ class RaidService {
         final int slotsFilled = (data['slots_filled'] as int?) ?? 0;
         final int maxSlots = (data['max_slots'] as int?) ?? 15;
 
-        // @AETHER: Atomic gate — serialized by mutex above AND by
+        // @AETHER: Atomic gate - serialized by mutex above AND by
         // Firestore transaction in production for double safety.
         if (slotsFilled >= maxSlots) {
           return false;
