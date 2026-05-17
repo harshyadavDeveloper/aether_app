@@ -1,8 +1,8 @@
+import 'package:aether_app/ui/screens/world_event_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'firebase_options.dart';
 import 'providers/app_providers.dart';
-import 'ui/world_event_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
